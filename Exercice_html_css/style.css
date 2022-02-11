@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.our-logo a{
+    align-items: center;
+    font-family: 'Courgette', cursive;
+    color: #FFF;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url("img/background.png");
+}
+.navbar{
+    position:fixed;
+    z-index: 1;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C55394;
+    width: 100%;
+    
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar li a{
+    text-transform: uppercase;
+    color: #FFF;
+    margin: 10px;
+}
+.navbar li a:hover{
+    background-color: #EB43A3;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Courgette', cursive;
+    color: #C55394;
+    background-image: url("img/rainbow.png") ;
+    background-position: center 50px;
+    background-size: 440px;
+    background-repeat: no-repeat;
+    padding: 100px 0 20px ;
+
+}
+h4{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+
+
+}
+.page #section{
+    border: solid;
+    border-radius: 25px;
+    padding: 20px;
+}
+#section{
+    margin: 0px 15%;
+    border: 3px solid;
+    border-color: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 3px 3px 10px;
+}
+button{
+    background-color:#EB43A3;
+    color: #FFF;
+    border-radius: 5px;
+    height: 26px;
+    width: 90px;
+    border-color: #EB43A3;
+}
+h5{
+    font-family: 'Courgette', cursive ;
+    color: #C55394;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+}
+figcaption{
+    color: #FFF;
+    position: relative;
+    padding: 5px;
+    bottom: 32px;
+    width: 190px;
+    background-color: rgba(14, 13, 13, 0.767);
+}
+.mini-footer{
+    background-color: #C55394;
+    text-align: right;
+    padding: 10px;
+    margin: 0px;
+    color: #FFF;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-items: self-start;
+    justify-content: space-between;
+}
